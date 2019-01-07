@@ -2,7 +2,7 @@
 
 This fold contains my writings for note, homework, exam, and certification. 
 
-## List of contents
+## list of contents
 
 ## license
 The Codes in this folder adopt MIT license.
