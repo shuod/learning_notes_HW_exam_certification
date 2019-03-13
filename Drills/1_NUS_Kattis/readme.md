@@ -1,0 +1,27 @@
+# NUS Kattis
+
+This is an online judge system used in National university of Singapore. Students use this OJ inline with the course "Data Structures and Algorithms (Java)" (https://www.comp.nus.edu.sg/~stevenha/cs2040.html). This course has a special feature that there is a company website for visualization of each algorithm in the course! Here I record my solution to the problem in that Kattis OJ.
+
+## Warm up problems
+
+- Hello World! (I/O)
+
+  [C](./1_HelloWorld/HelloWorld.c) [C++](./1_HelloWorld/HelloWorld.cpp)
+
+  
+
+  
+
+
+
+
+- Judging Moose
+
+- Mia
+
+- Stuck in A Time Loop
+
+
+
+
+
