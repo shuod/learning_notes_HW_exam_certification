@@ -6,13 +6,7 @@ This is an online judge system used in National university of Singapore. Student
 
 - Hello World! (I/O)
 
-  [C](./1_HelloWorld/HelloWorld.c) [C++](./1_HelloWorld/HelloWorld.cpp)
-
-  
-
-  
-
-
+  [C](./1_HelloWorld/HelloWorld.c) [C++](./1_HelloWorld/HelloWorld.cpp) [Python](./1_HelloWorld/HelloWorld.py) [Java](./1_HelloWorld/HelloWorld.java) [golang](./1_HelloWorld/HelloWorld.go) 
 
 
 - Judging Moose
