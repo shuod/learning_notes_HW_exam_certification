@@ -6,7 +6,7 @@ There is some tricky part in compiling and excuting Java in windows.
 
 There are mainly two categories in executing codes: the compilation way (C/C++, Fortran etc) or the interpretation way (Python, perl etc). Java, however, needs  both. The Java codes is first compiled into the binary code that only runs on Java virtual machine (Just-in-time compilation, or JIT) using a compiler, then you have to use a interpreter to execute the complied JIT codes. The first step is achieved using "javac somecode.java" and the second step uses "java somecode"(no extension name).
 
-In windows, the tricky part is you have to setup the environment variable "CLASSPATH" to include the output path where JIT codes are stored after compilation. Although, by default, the JIT code is output to the current folder, you have to put "." (which represent "current path") into the "CLASSPATH". Without doing so, even if you put the complete path to the JIT code, the interpreter "java" will still claim that it couldn't find the class file ("Error: Could not find or load main class somecoe.class").
+In windows, the tricky part is you have to setup the environment variable "CLASSPATH" to include the output path where JIT codes are stored after compilation. Although, by default, the JIT code is output to the current folder, you have to put "." (which represent "current path") into the "CLASSPATH". Without doing so, even if you put the complete path to the JIT code, the interpreter "java" will still claim that it couldn't find the class file ("Error: Could not find or load main class somecode.class"). The reason is "CLASSPATH" only works when JVM executes the code, but it won't work during the compiling stage.
 
 There are other two environment variables to setup in the powershell (run with the administrator privilege, of course):
 ```powershell
@@ -34,7 +34,7 @@ https://stackoverflow.com/questions/250517/java-se-6-vs-jre-1-6-vs-jdk-1-6-what-
 
 
 
-For entry level learners, download the Java SE (standard edition)from the oracle website is enough:
+For beginners, download the Java SE (standard edition)from the oracle website is enough:
 
 https://www.oracle.com/technetwork/java/javase/downloads/index.html
 
@@ -43,12 +43,6 @@ This includes Java JVM, JRE and SDK.
 
 
 Other packages like JEE/J2EE are for enterprise edition. In Java11, this will not be free. J2ME is for "Mobile edition".
-
-
-
-
-
-
 
 
 
@@ -87,11 +81,11 @@ catch (FileNotFoundException ex){
 
 - Organization of JAVA codes:
 
-  A source file contains several class, each go within a pair of curly braces;
+  A source file contains several class, each go within a pair of curly braces. There is only one "public static void main(String args[])" class and this is the entry point of the whole program. The outside class of the main class, which is "public void HelloWorld", should be named the same as the source code file name.
 
   A class has one or more method, each go within a pair of curly braces and must be declared inside a class;
 
-  Statements can be put in a method, tell the computer how to do certain instructions;
+  Statements can be put in a method, tell the computer how to do certain instructions and each line ends with ";";
 
 - Internal Architecture of JVM (JAVA virtual machine): 
 
@@ -107,8 +101,21 @@ catch (FileNotFoundException ex){
     - Native Method Stack: It contains all the native methods used in the application
   - Native Method Interface
   - Java Native Libraries
+
 - Comments: sinlge line uses "//" and multiple lines use "/* ... */"
 
+```
+public class HelloWorld {
+    
+    public static void main(String[] args) {
+        
+        System.out.println("Hello World!");
+    
+    }
+
+}
+```
+The above code should be saved as "HelloWorld.java", which is the same as the public class HelloWorld.
 ![](..\chp1\HFJ_chp1_2.png)
 
 #### 2 Identifiers
