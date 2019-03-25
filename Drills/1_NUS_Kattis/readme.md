@@ -4,13 +4,15 @@ This is an online judge system used in National university of Singapore. Student
 
 ## Warm up problems
 
-- Hello World! (I/O)
+- [Hello World! (I/O)](./1_HelloWorld/HelloWorld.pdf)
 
   [C](./1_HelloWorld/HelloWorld.c) [C++](./1_HelloWorld/HelloWorld.cpp) [Python](./1_HelloWorld/HelloWorld.py) [Java](./1_HelloWorld/HelloWorld.java) [golang](./1_HelloWorld/HelloWorld.go) 
 
 
-- Judging Moose
+- [Judging Moose(decide even or odd)](./2_JudgingMoose/JudgingMoose.pdf)
 
+  [C](./2_JudgingMoose/JudgingMoose.c)  [Python](./1_HelloWorld/JudgingMoose.py) [Java](./2_JudgingMoose/JudgingMoose.java)
+  
 - Mia
 
 - Stuck in A Time Loop
