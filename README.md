@@ -8,13 +8,23 @@ This fold contains my writings for note, homework, exam, and certification.
 
 Notes from different learning source
 
+HeadFirstJAVA/ : reading note from HeadFirstJAVA;
+
 ### HW
 
 Homework assignments for classes;
 
+Java/hw1: comparable in Java;
+
+Java/hw2: comparator in Java;
+
+Java/hw3: immutable class in Java;
+
 ### Drills
 
 Extra exercise or competitions, exams;
+
+1_NUS_Kattis: Online Judge from National university of Singapore;
 
 ### Projects
 
