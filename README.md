@@ -22,7 +22,7 @@ Extra exercise or competitions, exams:
 
 **[1_NUS_Kattis](./Drills/1_NUS_Kattis)**: Online Judge from National university of Singapore;
 
-**[2_Leetcode_Database](./Drills/2_Leetcode_Database)**: The Database part of questions from Leetcode online judge;
+**[2_Leetcode_Database](./Drills/2_Leetcode_DB)**: The Database part of questions from Leetcode online judge;
 
 ### Projects
 
