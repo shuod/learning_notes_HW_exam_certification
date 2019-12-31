@@ -6,25 +6,23 @@ This fold contains my writings for note, homework, exam, and certification.
 
 ### Notes
 
-Notes from different learning source
+Notes from different learning sources:
 
-HeadFirstJAVA/ : reading note from HeadFirstJAVA;
+**[HeadFirstJAVA](./Notes/HeadFirstJAVA)**: Reading note from HeadFirstJAVA;
 
 ### HW
 
-Homework assignments for classes;
+Homework assignments from various classes:
 
-Java/hw1: comparable in Java;
-
-Java/hw2: comparator in Java;
-
-Java/hw3: immutable class in Java;
+**[Java](./HW/Java)**: Home work for the Java language learning;
 
 ### Drills
 
-Extra exercise or competitions, exams;
+Extra exercise or competitions, exams:
 
-1_NUS_Kattis: Online Judge from National university of Singapore;
+**[1_NUS_Kattis](./Drills/1_NUS_Kattis)**: Online Judge from National university of Singapore;
+
+**[2_Leetcode_Database](./Drills/2_Leetcode_Database)**: The Database part of questions from Leetcode online judge;
 
 ### Projects
 
